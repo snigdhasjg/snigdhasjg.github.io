@@ -6,11 +6,9 @@ on:
     branches:
       - "main"
     paths-ignore:
-      - ".github/**/*.yml"
-      - ".github/**/*.yaml"
+      - ".github/**"
       - "!.github/workflows/build-resume.yaml"
-      - "**/*.md"
-      - ".gitignore"
+      - "*"
 
 concurrency:
   group: "pages"
@@ -56,11 +54,17 @@ jobs:
           npm run setup
           npm run export
 
+      - name: Upload json artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: resume.json
+          path: resume/build/resume.json
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v2
         with:
           path: 'gh-pages'
 
@@ -73,4 +77,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2

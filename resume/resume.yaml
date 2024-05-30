@@ -48,7 +48,7 @@ work:
       - "**Testing Tool:** JUnit, Jest"
       - "**Platform:** Docker"
   - position: Senior Consultant
-    name: "/thoughtworks"
+    name: "Thoughtworks"
     location: Gurugram
     description: A global technology consultancy company
     url: https://thoughtworks.com
@@ -68,7 +68,7 @@ work:
       - "**Testing Tool:** JUnit, TestNG, Gatling"
       - "**Platform:** Docker"
   - position: Consultant
-    name: "/thoughtworks"
+    name: "Thoughtworks"
     location: Gurugram
     description: A global technology consultancy company
     url: https://thoughtworks.com
@@ -95,7 +95,7 @@ work:
       - "**Platform:** Docker"
     endDate: '2022-08-01'
   - position: Graduate Consultant
-    name: "/thoughtworks"
+    name: "Thoughtworks"
     location: Gurugram
     description: A global technology consultancy company
     url: https://thoughtworks.com
@@ -113,7 +113,7 @@ work:
       - "**Testing Tool:** JUnit, Pytest"
     endDate: '2020-06-01'
   - position: Internship Trainee
-    name: "/thoughtworks"
+    name: "Thoughtworks"
     location: Bengaluru
     description: A global technology consultancy company
     url: https://thoughtworks.com

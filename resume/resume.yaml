@@ -3,10 +3,10 @@ basics:
   label: Developer | Senior Consultant
   picture: https://snigdhasjg.github.io/resume/images/profile.jpeg
   email: snigdha.jyoti.ghosh@gmail.com
-  phone: "+91 8001660020"
+  phone: "+91 7428296269"
   url: ''
   summary: |-
-    As a Software Developer with 4 years of experience, I have a passion for using technology to solve complex problems and improve the user experience.
+    As a Software Developer with 5 years of experience, I have a passion for using technology to solve complex problems and improve the user experience.
     I am dedicated to staying up-to-date with the latest industry trends and advancements, and regularly contribute to open source projects as a way to give back to the tech community.
     I thrive in fast-paced environments and enjoy working collaboratively with cross-functional teams to deliver high-quality products that meet and exceed customer expectations.
   location:
@@ -29,12 +29,31 @@ basics:
       username: 7857701/snigdhajyoti
       url: https://stackoverflow.com/users/7857701/snigdhajyoti
 work:
+  - position: Software Developer
+    name: "Equal Experts"
+    location: Pune
+    description: A global technology consultancy company
+    url: https://www.equalexperts.com
+    startDate: '2023-08-01'
+    summary: |-
+      **SaaS HR Application Development**
+      Contributed to the development of a scalable SaaS application for HR management, utilizing React.js for the front end and Java for the back end.
+      
+      Spearheaded the implementation of new features, enhancing the functionality and user experience of the application.
+    highlights:
+      - "**Tech Stack:** Java 17, SpringBoot, React.js"
+      - "**Build Tool:** Gradle, npm"
+      - "**CI/CD:** GitHub Actions"
+      - "**Cloud:** AWS (EKS, RDS Postgres)"
+      - "**Testing Tool:** JUnit, Jest"
+      - "**Platform:** Docker"
   - position: Senior Consultant
     name: "/thoughtworks"
     location: Gurugram
     description: A global technology consultancy company
     url: https://thoughtworks.com
     startDate: '2022-09-01'
+    endDate: '2023-08-01'
     summary: |-
       **Ecommerce platform**
       Building RESTful domain APIs for e-commerce platform. To provide a single data source for data used across the ecommerce, used event based system to sync data from multiple sources. 
@@ -136,6 +155,8 @@ skills:
       - Data JPA
       - Gradle
       - Logback
+  - name: React.js
+    level: ''
   - name: Amazon Web Services (AWS)
     level: ''
     keywords:
@@ -185,17 +206,11 @@ skills:
   - name: Linux
     level: ''
     keywords: []
-  - name: Apache Spark
-    level: ''
-    keywords:
-      - Spark SQL
-      - Scala API
   - name: Testing
     level: ''
     keywords:
       - JUnit
-      - Karate
-      - JMeter
+      - Jest
       - TestNG
 languages:
   - language: English
@@ -209,5 +224,5 @@ references: []
 projects: []
 meta:
   canonical: https://snigdhasjg.github.io/resume/
-  version: 1.1.0
-  lastModified: 2023-04-09T13:43:00
+  version: 1.2.0
+  lastModified: 2024-05-30T23:35:00

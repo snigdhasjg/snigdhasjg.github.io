@@ -4,7 +4,7 @@
   "scripts": {
     "clean": "(rm -r ../gh-pages/resume || true) && (rm -r ./build || true)",
     "setup": "mkdir -p ../gh-pages/resume build && js-yaml resume.yaml > build/resume.json ",
-    "export": "resume export -r build/resume.json -t elegant -f html ../gh-pages/resume/index.html && cp -r images ../gh-pages/resume/",
+    "export": "resume export -r build/resume.json -t elegant -f html ../gh-pages/resume/index.html && cp -r assets ../gh-pages/resume/",
     "serve": "npm run clean && npm run setup && resume serve -r build/resume.json -t elegant -d build"
   },
   "dependencies": {

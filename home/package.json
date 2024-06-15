@@ -1,9 +1,14 @@
 {
   "name": "home-page-builder",
   "version": "1.0.0",
+  "main": "index.html",
   "scripts": {
     "clean": "rm -r ../gh-pages || true",
     "setup": "mkdir -p ../gh-pages",
-    "export": "cp index.html ../gh-pages"
+    "export": "cp -r assets ../gh-pages/ && cp index.html ../gh-pages",
+    "start": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }

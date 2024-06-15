@@ -1,10 +1,10 @@
 basics:
   name: Snigdhajyoti Ghosh
   label: Developer | Senior Consultant
-  picture: https://snigdhasjg.github.io/resume/images/profile.jpeg
+  picture: /assets/profile.jpeg
   email: hello@snigji.com
   phone: "+91 7428296269"
-  url: 'snigji.com'
+  url: 'https://snigji.com'
   summary: |-
     As a Software Developer with 5 years of experience, I have a passion for using technology to solve complex problems and improve the user experience.
     I am dedicated to staying up-to-date with the latest industry trends and advancements, and regularly contribute to open source projects as a way to give back to the tech community.
@@ -29,24 +29,6 @@ basics:
       username: 7857701/snigdhajyoti
       url: https://stackoverflow.com/users/7857701/snigdhajyoti
 work:
-  - position: Software Developer
-    name: "Equal Experts"
-    location: Pune
-    description: A global technology consultancy company
-    url: https://www.equalexperts.com
-    startDate: '2023-08-01'
-    summary: |-
-      **SaaS HR Application Development**
-      Contributed to the development of a scalable SaaS application for HR management, utilizing React.js for the front end and Java for the back end.
-      
-      Spearheaded the implementation of new features, enhancing the functionality and user experience of the application.
-    highlights:
-      - "**Tech Stack:** Java 17, SpringBoot, React.js"
-      - "**Build Tool:** Gradle, npm"
-      - "**CI/CD:** GitHub Actions"
-      - "**Cloud:** AWS (EKS, RDS Postgres)"
-      - "**Testing Tool:** JUnit, Jest"
-      - "**Platform:** Docker"
   - position: Senior Consultant
     name: "Thoughtworks"
     location: Gurugram
@@ -155,8 +137,6 @@ skills:
       - Data JPA
       - Gradle
       - Logback
-  - name: React.js
-    level: ''
   - name: Amazon Web Services (AWS)
     level: ''
     keywords:
@@ -223,6 +203,6 @@ interests: []
 references: []
 projects: []
 meta:
-  canonical: https://snigdhasjg.github.io/resume/
-  version: 1.2.0
-  lastModified: 2024-05-30T23:35:00
+  canonical: https://resume.snigji.com
+  version: 1.3.0
+  lastModified: 2024-06-16T02:12:00

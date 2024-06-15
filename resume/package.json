@@ -2,9 +2,9 @@
   "name": "resume-builder",
   "version": "1.1.0",
   "scripts": {
-    "clean": "(rm -r ../gh-pages/resume || true) && (rm -r ./build || true)",
-    "setup": "mkdir -p ../gh-pages/resume build && js-yaml resume.yaml > build/resume.json ",
-    "export": "resume export -r build/resume.json -t elegant -f html ../gh-pages/resume/index.html && cp -r images ../gh-pages/resume/",
+    "clean": "(rm -r ../gh-pages || true) && (rm -r ./build || true)",
+    "setup": "mkdir -p ../gh-pages build && js-yaml resume.yaml > build/resume.json ",
+    "export": "resume export -r build/resume.json -t elegant -f html ../gh-pages/index.html && cp -r assets ../gh-pages/ && sed -i 's|</title>|</title><link rel=\"icon\" type=\"image/x-icon\" href=\"/assets/favicon.ico\">|' ../gh-pages/index.html",
     "serve": "npm run clean && npm run setup && resume serve -r build/resume.json -t elegant -d build"
   },
   "dependencies": {

@@ -1,0 +1,17 @@
+||oneplus.com^$ctag=os_android
+||oneplus.in^$ctag=os_android
+||oneplus.net^$ctag=os_android
+||heytapmobile.com^$ctag=os_android
+||heytapdl.com^$ctag=os_android
+||heytapmobi.com^$ctag=os_android
+||allawnos.com^$ctag=os_android
+||config.emb-api.com^$ctag=os_android
+||data.emb-api.com^$ctag=os_android
+||esa-reg-eup.myoppo.com^$ctag=os_android
+||oppomobile.com^$ctag=os_android
+||coloros.com^$ctag=os_android
+||nearme.com.cn^$ctag=os_android
+||allawnos.com^$ctag=os_android
+||ekatox.com^$ctag=os_android
+||oppo.com^$ctag=os_android
+||heytap.com^$ctag=os_android
